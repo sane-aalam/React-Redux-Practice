@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo-select{
+    width: 200px;
+    height: 48px;
+}
+
+nav{
+    width: calc(100vw - 500px);
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 900px;
+}
+
+ul li{
+    margin-right: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}

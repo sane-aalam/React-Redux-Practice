@@ -1,31 +1,20 @@
-import './App.css'
+import Card from '../Componets/Card'
+import Header from '../Componets/Header'
+// import './App.css'
 
-// funtional component 
-// JSX = Javascipt + HTML
-function Header(){
-  return(
-    <p>Header components</p>
-  )
-}
-
-function Footer(){
-  return(
-    <p>Fotter componets</p>
-  )
-}
 
 function App() {
   return (
     <>
     <Header/>
-    <h1>Hello React + Redux 🚀</h1>
     <Header/>
     <Header/>
-    <Footer/>
-    <Footer/>
-    <Footer/>
+    <Header/>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
     </>
   )
 }
-
 export default App
